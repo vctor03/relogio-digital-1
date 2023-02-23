@@ -35,14 +35,24 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   letter-spacing: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.relogio div:hover {
+  color: rgb(0, 225, 255);
+  transform: scale(1.01);
 }
 
 .relogio span {
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .relogio span.tempo {
   font-size: 10px;
   font-weight: 400;
+}
+
+.relogio .hover {
+  transition: 0.4s;
 }
