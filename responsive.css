@@ -2,8 +2,12 @@
   .relogio {
     gap: 10px;
     flex-direction: column;
-    padding: 200px 0px 200px 0px;
+    padding: 190px 0px 190px 0px;
     box-sizing: border-box;
-    margin: 60px;
+    margin: 90px;
+  }
+
+  .relogio div {
+    padding-bottom: 15px;
   }
 }
