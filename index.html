@@ -15,11 +15,12 @@
       href="./favicon/favicon-32x32.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="responsive.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Relógio Digital</title>
   </head>
   <body>
+    <noscript> this site requires javascript to be enabled</noscript>
     <div class="relogio">
       <div>
         <span id="horas" class="hover">00</span>
@@ -36,7 +37,18 @@
         <span class="tempo hover">Segundos</span>
       </div>
     </div>
-
-    <script src="index.js"></script>
+    <div class="alarme">
+        <button class="botao-alarme" id="botao-alarme">Definir alarme</button>
+    </div>
+    <div class="definir-alarme-invisivel" id="definir-alarme">
+        <p>Selecione o tempo do alarme</p>
+        <select class="alarme-select" id="alarm-select-hora"></select>
+        <select class="alarme-select" id="alarm-select-minuto"></select>
+        <button class="botao-alarme" id="botao-salvar-alarme">Salvar Alarme</button>
+    </div>
+    <div class="parar-alarme-invisivel">
+        <button id="botao-parar-alarme" class="botao-alarme">Parar Alarme</button>
+    </div>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

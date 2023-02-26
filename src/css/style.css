@@ -56,3 +56,21 @@ body {
 .relogio .hover {
   transition: 0.4s;
 }
+
+.alarme-select {}
+
+.definir-alarme-invisivel {
+    visibility: hidden;
+}
+
+.definir-alarme-visivel {
+    visibility: visible;
+}
+
+.parar-alarme-invisivel {
+    visibility: hidden;
+}
+
+.parar-alarme-visivel {
+    visibility: visible;
+}
